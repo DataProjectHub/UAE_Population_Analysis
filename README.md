@@ -74,10 +74,6 @@ In the EDA phase, we explored population trends over time, visualized the distri
 2. Predictive Modeling:
 - Run modeling.py to train and evaluate time series and regression models.
 
-### GitHub Setup
-1. Clone the repository:
-git clone https://github.com/DataProjectHub/UAE_Population_2015-2021.git
-
 
 ## Results and Insights
 
