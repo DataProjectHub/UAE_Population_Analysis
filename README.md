@@ -23,18 +23,20 @@ The main objectives of this project are:
 4. Visualize key findings and provide actionable insights for decision-makers.
 
 ## Project Structure
+
 ├── data/
-│ └── UAEPopulationByEmiratesNationalityandgender.xlsx # Raw data file 
+│ └── UAE_Population_data.xlsx # Raw data file 
 ├── notebooks/
-│ └── EDA.ipynb # Jupyter notebook containing the exploratory data analysis 
+│ └── UAE_Population_EDA.ipynb # Jupyter notebook containing the exploratory data analysis 
 ├── src/
 │ └── modeling.py # Python script for building and evaluating machine learning models 
+│ └── modeling.ipynb # jupyter notebook file for analysis and visualization
 ├── reports/
-│ └── EDA_Report.pdf # Generated EDA report with key findings and visualizations 
+│ └── EDA_Report_UAE_Population.docx # Generated EDA report with key findings and visualizations 
+| └── ACtual Vs Predicted Population.png # visual inspection of model's performance
+| └── UAE_Population_Forecast.png # future population growth data based on historical data
 ├── README.md # Project overview and documentation 
 ├── requirements.txt # Dependencies 
-└── LICENSE # License file for the project
-
 
 ## Exploratory Data Analysis (EDA)
 
@@ -67,10 +69,9 @@ In the EDA phase, we explored population trends over time, visualized the distri
 
   pip install -r requirements.txt
 
-
 ### Steps to Run
 1. Exploratory Data Analysis:
-- Open the EDA.ipynb Jupyter notebook and run the cells to explore the data.
+- Open the UAE_Population_EDA.ipynb Jupyter notebook and run the cells to explore the data.
 2. Predictive Modeling:
 - Run modeling.py to train and evaluate time series and regression models.
 
@@ -86,14 +87,6 @@ The time series and regression models developed in this project offer valuable i
 - Improved Forecasting: Incorporate external variables (e.g., migration rates, economic conditions) to improve model accuracy.
 - Region-Based Analysis: Extend the analysis to specific regions or cities within the UAE.
 - Interactive Dashboards: Build interactive dashboards with Power BI or Tableau for real-time data exploration.
-
-## Contributing
-
-Contributions are welcome! Please submit issues or pull requests if you have suggestions for improvements or new features.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact Information
 
